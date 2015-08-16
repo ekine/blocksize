@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Blocksize BIP 103</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -33,7 +33,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://blocksize.org">Blocksize.org</a>
+      <a class="navbar-brand" href="index.html">Blocksize.org</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -67,116 +67,53 @@
 
 <ul class="nav nav-pills">
   <li role="presentation"><a href="bip101xt.html">BIP101 XT Hardfork</a></li>
-  <li role="presentation"><a href="bip103.html">BIP103 Core</a></li>
+  <li role="presentation" class="active"><a href="bip103.html">BIP103 Core</a></li>
   <li role="presentation"><a href="#">BIP100</a></li>
   <li role="presentation"><a href="#">BIP102</a></li>
   <li role="presentation"><a href="#">BIP101 Core</a></li>
 </ul>
 <br />
-<section class="main-content">
-  <h3><p class="text-success">Miners, merchants, exchanges & wallet providers we want to know what you will support regarding the block size question</p></h3>
-<hr>
-<h3>Please fill out this form</h3>
-<br />
-<form action="http://formspree.io/blocksize@tuta.io" method="post" class="form-inline">
-<div class="form-group">
-<label for="name">Name</label>
-<input type="text" name="name" class="form-control" id="name" placeholder="Name">
-</div> &nbsp;
-<div class="form-group">
-<label for="company">Company/ Organisation</label>
-<input type="text" name="company" class="form-control" id="company" placeholder="Company">
-</div> &nbsp;
-<div class="form-group">
-<label for="email">Email</label>
-<input type="email" name="email" class="form-control" id="email" placeholder="Email address">
-</div>
-<br />
-<div><h4><p class="text-info">What does your company represent?</p></h4></div>
-<div class="radio">
-<label>
-<input type="radio" name="companycategory" id="optionMiner" value="miner" checked>
-Miner
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companycategory" id="optionMerchant" value="merchant">
-Merchant
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companycategory" id="optionExchange" value="exchange">
-Exchange
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companycategory" id="optionwalletprovider" value="walletprovider">
-Wallet Provider
-</label>
-</div>
-<br />
-<div><h4><p class="text-info">Which BIP does your company support?</p></h4></div>
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP101" value="BIP101">
-BIP 101 - Gavin Andresen - XT Hard Fork
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP103" value="BIP103">
-BIP 103 - Pieter Wuille
-</label>
-</div>
-<br />
-<hr>
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP100" value="BIP100">
-BIP 100 - Jeff Garzik
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP101core" value="BIP101core">
-BIP 101 - Gavin Andresen - Core (all devs must reach consensus, unlikely)
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP102" value="BIP102">
-BIP 102 - Jeff Garzik
-</label>
-</div>
-<br />
-<div><h4><p class="text-info">Source - Proof your BIP support statement</p></h4></div>
-<div class="form-group">
-<label>
-<input type="link" name="urlproof" class="form-control" id="url" placeholder="URL">
-Proof Link (e.g. twitter, blog...)
-</label>
-</div>
-<br />
-<br />
-<button type="submit" class="btn btn-primary">Submit</button>
-</form>
-<br />
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>BIP</th>
+        <th>Category</th>
+        <th>Company</th>
+        <th>Name</th>
+        <th>Source Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>BIP 103</td>
+        <td>Wallet Service</td>
+        <td>Greenaddress</td>
+        <td>Bitfast</td>
+        <td>https://goo.gl/3aNGX0</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>BIP 103</td>
+        <td>Wallet Service</td>
+        <td>Bitcoinpaygate</td>
+        <td>Bitcoinpaygate</td>
+        <td>https://goo.gl/wZgx3t</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>BIP 103</td>
+        <td>Wallet Service</td>
+        <td>Bitrated</td>
+        <td>Nadav Ivgi</td>
+        <td>https://goo.gl/ooS6Zm</td>
+      </tr>
 
-<footer class="site-footer">
-  <span class="site-footer-owner"><a href="https://github.com/ekine/blocksize">Blocksize</a> is maintained by <a href="https://github.com/ekine">ekine</a>.</span>
-</footer>
+    </tbody>
+  </table>
 
-</section>
+    </div>
 
   </body>
-    </div>
 </html>
