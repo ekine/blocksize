@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bitcoin block size debate</title>
+    <title>Blocksize BIP 101 Bitcoin XT</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -33,7 +33,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://blocksize.org">Blocksize.org</a>
+      <a class="navbar-brand" href="index.html">Blocksize.org</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,115 +66,148 @@
 </nav>
 
 <ul class="nav nav-pills">
-  <li role="presentation"><a href="bip101.html">BIP101</a></li>
-  <li role="presentation"><a href="bip103.html">BIP103</a></li>
+  <li role="presentation" class="active"><a href="bip101.html">BIP101</a></li>
+  <li role="presentation"><a href="bip103.html">BIP103 Core</a></li>
   <li role="presentation"><a href="bip100.html">BIP100</a></li>
   <li role="presentation"><a href="bip102.html">BIP102</a></li>
   <li role="presentation"><a href="8mb.html">8MB</a></li>
 </ul>
 <br />
-<section class="main-content">
-  <h3><p class="text-success">Miners, merchants, exchanges & wallet providers, let us know which block size you will support</p></h3>
-<hr>
-<h3>Please fill out this form</h3>
-<br />
-<form action="http://formspree.io/blocksize@tuta.io" method="post" class="form-inline">
-<div class="form-group">
-<label for="name">Name</label>
-<input type="text" name="name" class="form-control" id="name" placeholder="Name">
-</div> &nbsp;
-<div class="form-group">
-<label for="company">Company/ Organisation</label>
-<input type="text" name="company" class="form-control" id="company" placeholder="Company">
-</div> &nbsp;
-<div class="form-group">
-<label for="email">Email</label>
-<input type="email" name="email" class="form-control" id="email" placeholder="Email address">
-</div>
-<br />
-<div><h4><p class="text-info">What does your company represent?</p></h4></div>
-<div class="radio">
-<label>
-<input type="radio" name="companycategory" id="optionMiner" value="miner" checked>
-Miner
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companycategory" id="optionMerchant" value="merchant">
-Merchant
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companycategory" id="optionExchange" value="exchange">
-Exchange
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companycategory" id="optionwalletprovider" value="walletprovider">
-Wallet Service
-</label>
-</div>
-<br />
-<div><h4><p class="text-info">Which BIP does your company support?</p></h4></div>
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP101" value="BIP101">
-BIP 101 - Gavin Andresen
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP103" value="BIP103">
-BIP 103 - Pieter Wuille
-</label>
-</div>
-<br />
-<hr>
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP100" value="BIP100">
-BIP 100 - Jeff Garzik
-</label>
-</div>
-<br />
-<div class="radio">
-<label>
-<input type="radio" name="companyvote" id="optionBIP102" value="BIP102">
-BIP 102 - Jeff Garzik
-</label>
-</div>
-<br />
-<div><h4><p class="text-info">Source - Proof your BIP support statement</p></h4></div>
-<div class="form-group">
-<label>
-<input type="link" name="urlproof" class="form-control" id="url" placeholder="URL">
-Proof Link (e.g. twitter, blog...)
-</label>
-</div>
-<br />
-<br />
-<button type="submit" class="btn btn-primary">Submit</button>
-</form>
-<br />
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>BIP</th>
+        <th>Category</th>
+        <th>Company</th>
+        <th>Name</th>
+        <th>Source Link</th>
+      </tr>
+    </thead>
+    <tbody>
 
-<footer class="site-footer">
-  <span class="site-footer-owner"><a href="https://github.com/ekine/blocksize">Blocksize</a> is maintained by <a href="https://github.com/ekine">ekine</a>.</span>
-  <br />
-  <em><a href="https://www.reddit.com/r/Bitcoin/">/r/bitcoin</a>&nbsp;-&nbsp;<a href="https://www.reddit.com/r/bitcoin_uncensored/">/r/bitcoin_uncensored</a>&nbsp;-&nbsp;<a href="https://www.reddit.com/r/bitcoinxt">/r/bitcoin xt</a></em>
-</footer>
+      <tr>
+        <td>1</td>
+        <td>BIP 101</td>
+        <td>Miner</td>
+        <td>Slush Pool</td>
+        <td>Alena Satoshi</td>
+        <td><a href="https://goo.gl/TnrVJw">Link</a></td>
+      </tr>
 
-</section>
+      <tr>
+        <td>2</td>
+        <td>BIP 101</td>
+        <td>Miner</td>
+        <td>KnC Miner</td>
+        <td>Sam Cole</td>
+        <td><a href="http://blog.blockchain.com/2015/08/24/industry-endorses-bigger-blocks-and-bip101/">Blockchain (24 Aug 2015)</a></td>
+      </tr>
+
+      <tr>
+    <td>3</td>
+      <td>BIP 101</td>
+      <td>Miner</td>
+      <td>Multipool</td>
+      <td>Multipool</td>
+      <td><a href="https://goo.gl/PqtsN4">Link</a> <a href="http://i.imgur.com/ApQX3F6.png">Link</a></td>
+    </tr>
+    <tr>
+    <td>4</td>
+      <td>BIP 101</td>
+      <td>Wallet Service</td>
+      <td>Armory</td>
+      <td>Alan Reiner</td>
+      <td><a href="https://goo.gl/ooS6Zm">Link</a></td>
+    </tr>
+    <tr>
+    <td>5</td>
+      <td>BIP 101</td>
+      <td>Wallet Service</td>
+      <td>Blockchain.info</td>
+      <td>Peter Smith</td>
+      <td><a href="https://goo.gl/9CwHhb">Link</a></td>
+    </tr>
+    <tr>
+    <td>6</td>
+      <td>BIP 101</td>
+      <td>Wallet Service</td>
+      <td>Xapo</td>
+      <td>Wences Casares</td>
+      <td><a href="https://goo.gl/MT2vRu">Link</a></td>
+    </tr>
+    <tr>
+    <td>7</td>
+      <td>BIP 101</td>
+      <td>Wallet Service</td>
+      <td>BitGo</td>
+      <td>Jameson Lopp</td>
+      <td><a href="https://goo.gl/w3Is3G">Link</a></td>
+    </tr>
+    <tr>
+    <td>8</td>
+      <td>BIP 101</td>
+      <td>Wallet Service</td>
+      <td>Breadwallet</td>
+      <td>Aaron Voisine</td>
+      <td><a href="http://goo.gl/CdYhPn">Link</a></td>
+    </tr>
+    <tr>
+    <td>9</td>
+      <td>BIP 101</td>
+      <td>Wallet Service</td>
+      <td>Coinwallet</td>
+      <td>Coinwallet</td>
+      <td><a href="http://goo.gl/38Zwfv">Link</a></td>
+    </tr>
+    <tr>
+    <td>10</td>
+      <td>BIP 101</td>
+      <td>Bitcoin Exchange</td>
+      <td>Coinbase</td>
+      <td>Brian Armstrong</td>
+      <td><a href="https://goo.gl/nM3dIk">Link</a></td>
+    </tr>
+    <tr>
+    <td>11</td>
+      <td>BIP 101</td>
+      <td>Bitcoin Exchange</td>
+      <td>Bitpay</td>
+      <td>Stephen Pair</td>
+      <td><a href="https://goo.gl/oKh6KR">Link</a> <a href="https://goo.gl/9ySGDD">Link</a></td>
+    </tr>
+    <tr>
+    <td>12</td>
+      <td>BIP 101</td>
+      <td>Bitcoin Exchange</td>
+      <td>Circle</td>
+      <td>Sean Neville</td>
+      <td><a href="https://goo.gl/lDN2xJ">Link</a></td>
+    </tr>
+    <tr>
+    <td>13</td>
+      <td>BIP 101</td>
+      <td>Bitcoin Exchange</td>
+      <td>OKCoin</td>
+      <td>OKCoin</td>
+      <td><a href="https://goo.gl/lZWuMG">Link</a></td>
+    </tr>
+    <tr>
+    <td>14</td>
+      <td>BIP 101</td>
+      <td>Bitcoin Social Network</td>
+      <td>ZapChain</td>
+      <td>Adam McKenna</td>
+      <td><a href="http://i.imgur.com/UvRIW0n.png">Link</a></td>
+    </tr>
+
+    </tbody>
+  </table>
+
+    </div>
 
   </body>
-    </div>
-    <script>
+  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
