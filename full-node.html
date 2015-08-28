@@ -1,0 +1,14 @@
+<html>
+<script>
+//$,getJSON('url',function(data){
+//     alert(data);
+    // or alert("sample text"); would do if the json file is handled well enough.
+    // if no alert is shown, it's either you're using chrome with an offline version of
+    // your project or you're having an invalid json file
+//});
+
+$.getJSON("https://getaddr.bitnodes.io/api/v1/nodes/109.236.83.102-8333/", { status: "UP", bitcoin_address: "17kaEPqqEdVHEjVEBESKoWtgjCQx2u8u1e" }, function(json) {
+    alert("JSON Data: " + json.name);
+    });
+</script>
+</html>
